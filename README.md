@@ -8,6 +8,10 @@ Only tested on Debian stable, for now.
 
 ## Role Variables
 
+## Handlers
++ `daemon-reload`: notify this handler after modifying any
+  systemd unit files, including drop-in config
+
 ## Dependencies
 None.
 
